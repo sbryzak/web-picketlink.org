@@ -4,3 +4,4 @@ org: Organization
 base_url: http://localhost:4242/
 
 jborg_js_url: http://static.jboss.org/theme/js
+jborg_images_url: http://static.jboss.org/theme/images
