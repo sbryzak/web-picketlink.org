@@ -1,0 +1,28 @@
+%title #{site.title}
+%meta(charset="utf-8")
+%meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+%link(href="http://static.jboss.org/wildfly/css/bootstrap-community.min.css" rel="stylesheet" media="screen")
+
+  %script(src="http://static.jboss.org/theme/js/libs/html5/pre3.6/html5.min.js")
+
+%link(rel="shortcut icon" href="http://design.jboss.org/picketlink/logo/images/favicon.ico")
+
+:css
+  @media (min-width: 980px) {
+    .banner { background-image: url(http://design.jboss.org/picketlink/banner/images/picketlink_banner_r1v3.png); background-repeat: no-repeat; height: 110px;  }
+  }
+  @media (max-width: 979px) {
+    .banner { background-image: url(http://design.jboss.org/picketlink/logo/images/picketlink_logo_600x.png); background-repeat:no-repeat; height: 60px; }
+  }
+  @media (max-width: 650px) {
+    .banner { width: 500px; margin: 0px auto; }
+  }
+
+%script(src="http://static.jboss.org/theme/js/libs/jquery/jquery-1.9.1.min.js")
+- if page.javascripts
+  - page.javascripts.each do |javascript|
+    %script{:src=>javascript, :type=>'text/javascript'}
+
+- if !(site.profile.eql?("staging") or site.profile.eql?("production"))
+  %script(src="/javascripts/less-1.4.1.min.js")

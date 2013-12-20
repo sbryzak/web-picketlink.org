@@ -1,4 +1,6 @@
 name: Project Name
-title: Baked with Awestruct
+title: Picketlink - Apached Licensed Open Source Java Security
 org: Organization
-base_url: ''
+base_url: http://localhost:4242/
+
+jborg_js_url: http://static.jboss.org/theme/js

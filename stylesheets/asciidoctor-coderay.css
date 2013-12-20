@@ -1,0 +1,432 @@
+/* Foundation stylesheet for CodeRay (to match GitHub theme) | MIT License | http://foundation.zurb.com */
+/* line 2, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+table.CodeRay {
+  border-collapse: collapse;
+  padding: 2px;
+  margin-bottom: 0;
+  border: 0;
+  background: transparent;
+}
+
+/* line 3, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+table.CodeRay td {
+  padding: 0 .5em;
+  vertical-align: top;
+}
+
+/* line 4, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+table.CodeRay td.line-numbers {
+  text-align: right;
+  color: #999;
+  border-right: 1px solid #e5e5e5;
+  padding-left: 0;
+}
+
+/* line 5, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+span.line-numbers {
+  border-right: 1px solid #E5E5E5;
+  color: #999;
+  display: inline-block;
+  margin-right: 0.5em;
+  padding-right: 0.5em;
+}
+
+/* line 6, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay td.line-numbers strong, .CodeRay span.line-numbers strong {
+  font-weight: normal;
+}
+
+/* line 7, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .debug {
+  color: white !important;
+  background: blue !important;
+}
+
+/* line 8, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .annotation {
+  color: #007;
+}
+
+/* line 9, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .attribute-name {
+  color: #f08;
+}
+
+/* line 10, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .attribute-value {
+  color: #700;
+}
+
+/* line 11, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .binary {
+  color: #509;
+}
+
+/* line 12, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .comment {
+  color: #999;
+  font-style: italic;
+}
+
+/* line 13, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .char {
+  color: #04D;
+}
+
+/* line 14, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .char .content {
+  color: #04D;
+}
+
+/* line 15, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .char .delimiter {
+  color: #039;
+}
+
+/* line 16, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .class {
+  color: #458;
+}
+
+/* line 17, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .complex {
+  color: #A08;
+}
+
+/* line 18, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .constant {
+  color: teal;
+}
+
+/* line 19, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .color {
+  color: #0A0;
+}
+
+/* line 20, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .class-variable {
+  color: #369;
+}
+
+/* line 21, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .decorator {
+  color: #B0B;
+}
+
+/* line 22, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .definition {
+  color: #099;
+}
+
+/* line 23, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .directive {
+  color: #088;
+}
+
+/* line 24, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .delimiter {
+  color: black;
+}
+
+/* line 25, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .doc {
+  color: #970;
+}
+
+/* line 26, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .doctype {
+  color: #34b;
+}
+
+/* line 27, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .doc-string {
+  color: #D42;
+}
+
+/* line 28, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .escape {
+  color: #666;
+}
+
+/* line 29, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .entity {
+  color: #800;
+}
+
+/* line 30, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .error {
+  color: #808;
+}
+
+/* line 31, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .exception {
+  color: #C00;
+}
+
+/* line 32, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .filename {
+  color: #099;
+}
+
+/* line 33, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .function {
+  color: #900;
+}
+
+/* line 34, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .global-variable {
+  color: teal;
+}
+
+/* line 35, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .hex {
+  color: #058;
+}
+
+/* line 36, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .integer {
+  color: #099;
+}
+
+/* line 37, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .include {
+  color: #B44;
+}
+
+/* line 38, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .inline {
+  color: black;
+}
+
+/* line 39, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .inline .inline {
+  background: #ccc;
+}
+
+/* line 40, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .inline .inline .inline {
+  background: #bbb;
+}
+
+/* line 41, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .inline .inline-delimiter {
+  color: #D14;
+}
+
+/* line 42, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .inline-delimiter {
+  color: #D14;
+}
+
+/* line 43, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .important {
+  color: #f00;
+}
+
+/* line 44, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .interpreted {
+  color: #B2B;
+}
+
+/* line 45, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .instance-variable {
+  color: teal;
+}
+
+/* line 46, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .label {
+  color: #970;
+}
+
+/* line 47, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .local-variable {
+  color: #963;
+}
+
+/* line 48, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .octal {
+  color: #40E;
+}
+
+/* line 49, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .predefined {
+  color: #369;
+}
+
+/* line 50, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .preprocessor {
+  color: #579;
+}
+
+/* line 51, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .pseudo-class {
+  color: #00C;
+}
+
+/* line 52, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .predefined-type {
+  color: #074;
+}
+
+/* line 53, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .reserved, .keyword {
+  color: #000;
+}
+
+/* line 54, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .key {
+  color: #808;
+}
+
+/* line 55, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .key .delimiter {
+  color: #606;
+}
+
+/* line 56, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .key .char {
+  color: #80f;
+}
+
+/* line 57, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .value {
+  color: #088;
+}
+
+/* line 58, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .regexp {
+  background-color: #fff0ff;
+}
+
+/* line 59, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .regexp .content {
+  color: #808;
+}
+
+/* line 60, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .regexp .delimiter {
+  color: #404;
+}
+
+/* line 61, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .regexp .modifier {
+  color: #C2C;
+}
+
+/* line 62, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .regexp .function {
+  color: #404;
+  font-weight: bold;
+}
+
+/* line 63, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .string {
+  color: #D20;
+}
+
+/* line 65, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .string .string .string {
+  background-color: #ffd0d0;
+}
+
+/* line 66, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .string .content {
+  color: #D14;
+}
+
+/* line 67, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .string .char {
+  color: #D14;
+}
+
+/* line 68, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .string .delimiter {
+  color: #D14;
+}
+
+/* line 69, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .shell {
+  color: #D14;
+}
+
+/* line 71, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .shell .delimiter {
+  color: #D14;
+}
+
+/* line 72, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .symbol {
+  color: #990073;
+}
+
+/* line 73, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .symbol .content {
+  color: #A60;
+}
+
+/* line 74, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .symbol .delimiter {
+  color: #630;
+}
+
+/* line 75, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .tag, .CodeRay .attribute-name {
+  color: #070;
+}
+
+/* line 76, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .tag-special {
+  color: #D70;
+}
+
+/* line 77, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .type {
+  color: #339;
+}
+
+/* line 78, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .variable {
+  color: #036;
+}
+
+/* line 79, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .insert {
+  background: #afa;
+}
+
+/* line 80, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .delete {
+  background: #faa;
+}
+
+/* line 81, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .change {
+  color: #aaf;
+  background: #007;
+}
+
+/* line 82, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .head {
+  color: #f8f;
+  background: #505;
+}
+
+/* line 83, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .insert .insert {
+  color: #080;
+}
+
+/* line 84, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .delete .delete {
+  color: #800;
+}
+
+/* line 85, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .change .change {
+  color: #66f;
+}
+
+/* line 86, /Users/danielcoughlin/Desktop/RedhatWork/wildfly.org/stylesheets/asciidoctor-coderay.scss */
+.CodeRay .head .head {
+  color: #f4f;
+}

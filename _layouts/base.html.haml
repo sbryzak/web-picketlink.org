@@ -1,24 +1,30 @@
 !!!5
 %html
   %head
-    %meta{ :charset=>'utf-8' }
-    %title An awesome site 
-    %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
+    = partial('head.html.haml')
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"#{site.base_url}/stylesheets/blog.css"}
+    %link{:rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/asciidoctor-coderay.css", :media=>"screen" }
+
     :css
-      body {
-        padding-top: 60px;
+      td.download-size {
+        text-align: right;
+        padding-right: 10px;
       }
-    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/styles.css" }
-    /[if lt IE 9]
-      %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
+
+      .white-stripes tr:nth-child(even) {
+        background-color: white;
+      }
+      .white-stripes tr:nth-child(odd) {
+        background-color: none;
+      }
   %body
-    .navbar.navbar-fixed-top
-      .navbar-inner
-        .container
-          %a.brand{ :href=>"#{site.base_url}" } Project Name
-          %ul.nav
-            %li
-              %a{ :href=>"#{site.base_url}" } Home
+    .container#content
+      .dropup
+        %a#tab.tabnav-closed{:href => "https://www.redhat.com"} Red Hat
+
+      = partial('banner.html.haml')
+      = partial('nav.html.haml')
+
     .container
       ~ content
       %hr
