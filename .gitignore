@@ -1,0 +1,9 @@
+.DS_Store
+.awestruct/
+.bundle/
+.idea/
+.sass-cache/
+.test/
+_partials/head.html.html
+_site/
+index.html.html
