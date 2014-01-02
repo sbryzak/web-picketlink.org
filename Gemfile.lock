@@ -54,7 +54,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ruby-s3cmd (0.1.5)
-    sass (3.2.12)
+    sass (3.2.13)
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref

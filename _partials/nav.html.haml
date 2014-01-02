@@ -10,17 +10,15 @@
           %li{:class=>"#{'active' if page.output_path.start_with?('/index') }" }<
             %a(href="#{site.base_url}/") Home
           %li{:class=>"#{'active' if page.output_path.start_with?('/about') }" }<
-            %a(href="#{site.base_url}/about.html") About
+            %a(href="#{site.base_url}/about/") About
           %li{:class=>"#{'active' if page.output_path.start_with?('/news') }" }<
             %a(href="#{site.base_url}/news/") News
-          %li{:class=>"#{'active' if page.output_path.start_with?('/downloads') }" }<
-            %a(href="#{site.base_url}/downloads/") Downloads
           %li{:class=>"#{'active' if page.output_path.start_with?('/docs') }" }<
             %a{:href=>"http://docs.jboss.org/picketlink/2/latest/reference/html/"} Documentation
           %li{:class=>"#{'active' if page.output_path.start_with?('/source') }" }<
             %a(href="https://github.com/picketlink/picketlink") Source Code
           %li{:class=>"#{'active' if page.output_path.start_with?('/gethelp') }" }<
-            %a(href="#{site.base_url}/gethelp.html") Get Help
+            %a(href="#{site.base_url}/gethelp/") Get Help
           %li{:class=>"#{'active' if page.output_path.start_with?('/joinus') }" }<
             %a(href="#{site.base_url}/joinus/") Join Us
           %li.dropdown
