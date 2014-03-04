@@ -1,0 +1,118 @@
+---
+layout: project
+title: Getting Started
+---
+
+.row-fluid
+  .hero-unit
+    %h1 Getting Started
+    %p Get Ready And Fast!!!
+  .row-fluid
+    .span12.well.post-bg
+      .row-fluid
+        .span12
+          %h2 About this Guide 
+          %p
+            This guide will walk you through downloading, installing and running PicketLink for the first time. It will then introduce to some of the key features of PicketLink.
+      .row-fluid
+        .span12
+          %h3 Obtaining PicketLink
+          %p
+            PicketLink can be obtained in different ways, depending on your needs.
+          %p
+            If you're looking for Java JEE Application Security, then you want to use PicketLink Authentication and Authorization API. You should prefer configuring PicketLink as a dependency in your Apache Maven project. The recommendation is the same if you're looking for Identity Management API.
+          %p
+            But if you're looking for the PicketLink Federation features, you should prefer the PicketLink Installer approach, as described in the next section. It is easier and fully compatible with the old v2.1 versions.
+      .row-fluid
+        .span12
+          %h3 Maven
+      .row-fluid
+        .span12
+          %h4 As a Maven Dependency
+          %p
+            PicketLink libraries are available on 
+            %a(href="https://repository.jboss.org/nexus/index.html#nexus-search;gav~org.picketlink~~2.5.1.Final~~")  JBoss Release Repository 
+            and 
+            %a(href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.picketlink%22%20AND%20v%3A%222.6.0.Beta3%22") Maven Central.
+          %p
+            If your project is using Apache Maven, you only need the following dependency in your POM:
+          %pre
+            %code.xml
+              &lt;properties&gt;
+              &lt;picketlink.version&gt;2.6.0.Beta3&lt;/picketlink.version&gt;
+              &lt;/properties&gt;
+
+              &lt;dependencies&gt;
+              &lt;dependency&gt;
+              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
+              &lt;scope&gt;compile&lt;/scope&gt;
+              &lt;version&gt;${picketlink.version}&lt;/version&gt;
+              &lt;/dependency&gt;
+              
+              &lt;dependency&gt;
+              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
+              &lt;scope&gt;runtime&lt;/scope&gt;
+              &lt;version&gt;${picketlink.version}&lt;/version&gt;
+              &lt;/dependency&gt;
+              &lt;/dependencies&gt;
+      .row-fluid
+        .span12
+          %h4 As Maven BOM
+          %p
+            You can use a Bill of Materials (BOM) to configure PicketLink in your project.
+          %pre
+            %code.xml
+              &lt;properties&gt; 
+              &lt;version.picketlink.javaee.bom&gt;2.6.0.Beta3&lt;/version.picketlink.javaee.bom&gt;
+              &lt;/properties&gt;
+
+              &lt;/dependencyManagement&gt;
+              &lt;dependency&gt;
+              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &lt;artifactId&gt;picketlink-javaee-6.0&lt;/artifactId&gt;
+              &lt;type&gt;pom&lt;/type&gt;
+              &lt;scope&gt;import&lt;/scope&gt;
+              &lt;version&gt;${version.picketlink.javaee.bom}&lt;/version&gt;
+              &lt;/dependency&gt;
+              &lt;/dependencyManagement&gt;
+
+              &lt;dependencies&gt;
+              &lt;dependency&gt;
+              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
+              &lt;scope&gt;compile&lt;/scope&gt;
+              &lt;/dependency&gt;
+
+              &lt;dependency&gt;
+              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
+              &lt;scope&gt;runtime&lt;/scope&gt;
+              &lt;/dependency&gt;
+              &lt;/dependencies&gt;
+          
+          .well
+            %p
+            %i.icon-thumbs-up.icon-2x.pull-left
+            Please note that when using JBoss BOMs you're tied to a specific version of PicketLink. <b>So always make sure you're using the BOM version with the latest PicketLink version.</b> Check our <a href="http://docs.jboss.org/picketlink/2/latest/reference/html/">documentation</a> 
+            for more details.
+      .row-fluid
+        .span12
+          %h3 Quickstarts
+          %p
+            PicketLink provides a plenty of quickstarts to let you drive quickly to use some of the most important features.
+          %p
+            The quickstarts are available in the PicketLink Quickstarts 
+            %a(href="https://github.com/jboss-developer/jboss-picketlink-quickstarts")repository.  
+          %p
+            Follow the instructions there to get them and deploy in a JBoss Enterprise Application Platform 6 server. 
+      .row-fluid
+        .span12
+          %h3 Documentation
+          %p
+            The PicketLink documentation is the best source of information about all the PicketLink features and usage.
+          %p
+            The documentation is available 
+            %a(href="http://docs.jboss.org/picketlink/2/latest/reference/html/")here.
+
