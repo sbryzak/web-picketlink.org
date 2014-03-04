@@ -11,8 +11,6 @@
             %a(href="#{site.base_url}/") Home
           %li{:class=>"#{'active' if page.output_path.start_with?('/about') }" }<
             %a(href="#{site.base_url}/about/") About
-          %li{:class=>"#{'active' if page.output_path.start_with?('/news') }" }<
-            %a(href="#{site.base_url}/news/") News
           %li{:class=>"#{'active' if page.output_path.start_with?('/docs') }" }<
             %a{:href=>"http://docs.jboss.org/picketlink/2/latest/reference/html/"} Documentation
           %li{:class=>"#{'active' if page.output_path.start_with?('/source') }" }<
@@ -27,7 +25,7 @@
                 %b.caret>
             %ul.dropdown-menu.projectsocialmedia
               %li<
-                %a(href="http://twitter.com/WildFlyAS")<
+                %a(href="http://twitter.com/picketlink")<
                   %img(src="#{site.jborg_images_url}/common/socialmedia_icon40_twitter.png")
               %li<
                 %a(href="https://plus.google.com/communities/103877841516607784660")<

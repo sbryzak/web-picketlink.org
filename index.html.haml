@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: project
 ---
 
 .row-fluid
@@ -12,10 +12,10 @@ layout: base
     .carousel-inner
       .active.item
         %a{:href => "#{site.base_url}"}
-          %img(src="http://wildfly.org/images/wildflynewimproved.jpg")
+          %img(src="https://www.jboss.org/dms/coolstuff/desktops/picketlink/desktop_picketlink_1920x1200.jpg")
       .item
         %a{:href => "#{site.base_url}"}
-          %img(src="http://wildfly.org/images/wildflynewimproved.jpg")
+          %img(src="https://www.jboss.org/dms/coolstuff/desktops/picketlink/desktop_picketlink_1920x1200.jpg")
           / Carousel nav
 
     %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} ‹
@@ -26,7 +26,6 @@ layout: base
       %br
       %br
       %h1 Welcome to the new and improved picketlink site.
-
       .container-fluid
         %ul.row-fluid
           %li.span3
@@ -61,9 +60,8 @@ layout: base
               %h3 Questions?
               %p
                 Your questions are answered on our
-                %a{:href => "http://www.picketlink.org/faq.html"} FAQ.
+                %a{:href => "#{site.base_url}/faq/"} FAQ.
               %p
-                Get Involved
-                %a{:href => "http://www.picketlink.org/social.html"}
-                  Social.
+                Are you ready?
+                %a{:href => "#{site.base_url}/gethelp/"} Get Involved.
 
