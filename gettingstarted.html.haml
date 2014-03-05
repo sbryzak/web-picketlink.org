@@ -37,25 +37,25 @@ title: Getting Started
           %p
             If your project is using Apache Maven, you only need the following dependency in your POM:
           %pre
-            %code.xml
+            .plain
               &lt;properties&gt;
-              &lt;picketlink.version&gt;2.6.0.Beta3&lt;/picketlink.version&gt;
+              &nbsp;&nbsp;&lt;picketlink.version&gt;2.6.0.Beta3&lt;/picketlink.version&gt;
               &lt;/properties&gt;
 
               &lt;dependencies&gt;
-              &lt;dependency&gt;
-              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
-              &lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
-              &lt;scope&gt;compile&lt;/scope&gt;
-              &lt;version&gt;${picketlink.version}&lt;/version&gt;
-              &lt;/dependency&gt;
+              &nbsp;&nbsp;&lt;dependency&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;scope&gt;compile&lt;/scope&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;${picketlink.version}&lt;/version&gt;
+              &nbsp;&nbsp;&lt;/dependency&gt;
               
-              &lt;dependency&gt;
-              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
-              &lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
-              &lt;scope&gt;runtime&lt;/scope&gt;
-              &lt;version&gt;${picketlink.version}&lt;/version&gt;
-              &lt;/dependency&gt;
+              &nbsp;&nbsp;&lt;dependency&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;scope&gt;runtime&lt;/scope&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;${picketlink.version}&lt;/version&gt;
+              &nbsp;&nbsp;&lt;/dependency&gt;
               &lt;/dependencies&gt;
       .row-fluid
         .span12
@@ -63,33 +63,33 @@ title: Getting Started
           %p
             You can use a Bill of Materials (BOM) to configure PicketLink in your project.
           %pre
-            %code.xml
+            .plain
               &lt;properties&gt; 
-              &lt;version.picketlink.javaee.bom&gt;2.6.0.Beta3&lt;/version.picketlink.javaee.bom&gt;
+              &nbsp;&nbsp;&lt;version.picketlink.javaee.bom&gt;2.6.0.Beta3&lt;/version.picketlink.javaee.bom&gt;
               &lt;/properties&gt;
 
               &lt;/dependencyManagement&gt;
-              &lt;dependency&gt;
-              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
-              &lt;artifactId&gt;picketlink-javaee-6.0&lt;/artifactId&gt;
-              &lt;type&gt;pom&lt;/type&gt;
-              &lt;scope&gt;import&lt;/scope&gt;
-              &lt;version&gt;${version.picketlink.javaee.bom}&lt;/version&gt;
-              &lt;/dependency&gt;
+              &nbsp;&nbsp;&lt;dependency&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;picketlink-javaee-6.0&lt;/artifactId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;type&gt;pom&lt;/type&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;scope&gt;import&lt;/scope&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;${version.picketlink.javaee.bom}&lt;/version&gt;
+              &nbsp;&nbsp;&lt;/dependency&gt;
               &lt;/dependencyManagement&gt;
 
               &lt;dependencies&gt;
-              &lt;dependency&gt;
-              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
-              &lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
-              &lt;scope&gt;compile&lt;/scope&gt;
-              &lt;/dependency&gt;
+              &nbsp;&nbsp;&lt;dependency&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;picketlink-api&lt;/artifactId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;scope&gt;compile&lt;/scope&gt;
+              &nbsp;&nbsp;&lt;/dependency&gt;
 
-              &lt;dependency&gt;
-              &lt;groupId&gt;org.picketlink&lt;/groupId&gt;
-              &lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
-              &lt;scope&gt;runtime&lt;/scope&gt;
-              &lt;/dependency&gt;
+              &nbsp;&nbsp;&lt;dependency&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;org.picketlink&lt;/groupId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;picketlink-impl&lt;/artifactId&gt;
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;scope&gt;runtime&lt;/scope&gt;
+              &nbsp;&nbsp;&lt;/dependency&gt;
               &lt;/dependencies&gt;
           
           .well
