@@ -2,66 +2,130 @@
 layout: project
 ---
 
-.row-fluid
+%section#carousel
   / Main hero unit for a primary marketing message or call to action
-  #myCarousel.carousel.slide
-    %ol.carousel-indicators
-      %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
-      %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
-    / Carousel items
-    .carousel-inner
-      .active.item
-        %a{:href => "#{site.base_url}"}
-          %img(src="https://www.jboss.org/dms/coolstuff/desktops/picketlink/desktop_picketlink_1920x1200.jpg")
-      .item
-        %a{:href => "#{site.base_url}"}
-          %img(src="https://www.jboss.org/dms/coolstuff/desktops/picketlink/desktop_picketlink_1920x1200.jpg")
-          / Carousel nav
+  .row-fluid
+    .span12
+      %h2 PicketLink - Apache v2 Licensed Security Project! 
+  .row-fluid
+    .span12
+      #myCarousel.carousel.slide
+        %ol.carousel-indicators
+          %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+          %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+          %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+          / Carousel items
+        .carousel-inner
+          .active.item
+            %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner.png"}/
+          .item
+            %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner_r1v4.png"}/
+          .item
+            %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner_r1v4.png"}/
+        / Carousel nav
+        %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} ‹
+        %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel"} ›
 
-    %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} ‹
-    %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel"} ›
+-# First row of projects
+#equalHeightsB.row-fluid.equalHero
+  .span4.well
+    %p
+      %i.icon-table.icon-3x.pull-left
+      %h3 Java EE Application Security
+    %p
+      Authentication API
+    %p
+      Authorization and Permission API
+    %p
+      Session Based Identity
+    %p
+      Fully Integrated With CDI
+    %p.center-icon
+      %a.btn.btn-primary{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch02.html"}
+        Application Security
+        %i.icon-circle-arrow-right
+  .span4.well
+    %p
+      %i.icon-table.icon-3x.pull-left
+      %h3 Identity Management
+    %p
+      Built-in Identity Stores for Databases and LDAP
+    %p
+      Supports Java EE and Java SE Platforms
+    %p
+      Rich and Extensible API
+    %p
+      Multi-Tenancy
+    %p
+      Ideal for Cloud and SaaS applications
+    %p.center-icon
+      %a.btn.btn-primary{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch03.html"}
+        IDM
+        %i.icon-circle-arrow-right
+  .span4.well
+    %p
+      %i.icon-check.icon-3x.pull-left
+      %h3 Federation
+    %p
+      SAML (v2.0 and v1.1)
+    %p
+      OAuth2
+    %p
+      XACML v2
+    %p
+      OpenID
+    %p
+      WS-Trust based Security Token Server (STS)
+    %p.center-icon
+      %a.btn.btn-primary{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch09.html"}
+        Secure SSO
+        %i.icon-circle-arrow-right
 
 
-    %article
-      %br
-      %br
-      %h1 Welcome to the new and improved picketlink site.
-      .container-fluid
-        %ul.row-fluid
-          %li.span3
-            .box
-              %h3 Java JEE Application Security!
-              %p Authentication API
-              %p Authorization and Permission API
-              %p Session-based Identity
-              %p Fully Integrated with CDI
-              %p
-                %a{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch02.html"} Learn more
-          %li.span3
-            .box
-              %h3 Identity Management
-              %p Supports Java EE and Java SE Platforms
-              %p Built-in Identity Stores for Databases and LDAP
-              %p Rich and Extensible API
-              %p Multi-Tenancy
-              %p Ideal for Cloud and SaaS applications
-              %p
-                %a{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch03.html"} Learn more
-          %li.span3
-            .box
-              %h3 Federation
-              %p Security Assertion Markup Language (SAML) v1/v2
-              %p eXtensible Access Control Markup Language (XACML)
-              %p WS-Trust
-              %p
-                %a{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch09.html"} Learn more
-          %li.span3
-            .box
-              %h3 Questions?
-              %p
-                Your questions are answered on our
-                %a{:href => "#{site.base_url}/faq/"} FAQ.
-              %p
-                Are you ready?
-                %a{:href => "#{site.base_url}/gethelp/"} Get Involved.
-
+-# Second row of projects
+#equalHeightsB.row-fluid.equalHero
+  .span4.well
+    %p
+      %i.icon-sitemap.icon-3x.pull-left
+      %h3 Social Login
+    %p
+      Facebook Connect
+    %p
+      Twitter Login
+    %p
+      Google+ Login
+    %p.center-icon
+      %a.btn.btn-primary{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch09.html"}
+        Secure Social
+        %i.icon-circle-arrow-right
+  .span4.well
+    %p
+      -# icon-tasks icon-code icon-cogs icon-wrench
+      %i.icon-wrench.icon-3x.pull-left
+      %h3 Quickstarts
+    %p
+      Get Ready and bootstrapped fast using the quickstart examples.
+    %p
+      Instructions in the quickstarts.
+    %p
+      Deploy seamlessly in JBoss Enterprise Application Platform 6 server.
+    %p.center-icon
+      %a.btn.btn-primary{:href => "https://github.com/jboss-developer/jboss-picketlink-quickstarts"}
+        Quickstarts
+        %i.icon-circle-arrow-right
+  .span4.well
+    %p
+      -# icon-umbrella
+      %i.icon-plus.icon-3x.pull-left
+      %h3 Questions
+    %p
+      Do you have any questions? Check
+      %a{:href => "#{site.base_url}/faq/"} FAQ.
+    %p
+      Are you ready?
+      %a{:href => "#{site.base_url}/gethelp/"} Get Involved.
+ 
+    %p.center-icon
+      %a.btn.btn-primary{:href => "#{site.base_url}/gethelp/"}
+        Get Involved
+        %i.icon-circle-arrow-right
