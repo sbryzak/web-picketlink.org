@@ -8,9 +8,10 @@
 Social Login involves login using a social network such as Facebook, Twitter or Google+.
 
 PicketLink includes support for Social Login using:
-# Facebook Connect
-# Twitter
-# Google+
+
+* Facebook Connect
+* Twitter
+* Google+
 
 The quickstarts are available that provide you the relevant information:
 
@@ -19,4 +20,3 @@ https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/pick
 
 === Twitter
 https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-twitter
-

@@ -1,0 +1,14 @@
+= CDI Integration
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+PicketLink includes first class support for CDI applications.
+
+Please refer to the documentation as well as quickstarts.
+
+== Documentation
+http://docs.jboss.org/picketlink/2/latest/reference/html/
+
+== Quickstarts
+https://github.com/jboss-developer/jboss-picketlink-quickstarts/
