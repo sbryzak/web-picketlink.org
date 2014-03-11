@@ -1,0 +1,21 @@
+= Testimonials
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== Testimonials
+
+++++
+<blockquote class="twitter-tweet" lang="en"><p>Played around with the <a href="https://twitter.com/picketlink">@picketlink</a> social quick starts. Excellent! Facebook/twitter login is so easy. What about adding <a href="https://twitter.com/search?q=%23OAuth&amp;src=hash">#OAuth</a> IDP support?</p>&mdash; Steven Nakhla (@geekpharaoh) <a href="https://twitter.com/geekpharaoh/statuses/443096423316611072">March 10, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>Digging the new <a href="https://twitter.com/picketlink">@picketlink</a> website. Can&#39;t wait to see the docs updated with all the new features <a href="https://twitter.com/search?q=%23java&amp;src=hash">#java</a> <a href="https://twitter.com/search?q=%23security&amp;src=hash">#security</a></p>&mdash; Steven Nakhla (@geekpharaoh) <a href="https://twitter.com/geekpharaoh/statuses/443389072191782913">March 11, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>&quot;Implementing <a href="https://twitter.com/search?q=%23CapeDwarf&amp;src=hash">#CapeDwarf</a>&#39;s Users API with PicketLink-Social&#39;s OpenID support&quot; <a href="http://t.co/zIuco1qcRM">http://t.co/zIuco1qcRM</a></p>&mdash; Markus Eisele (@myfear) <a href="https://twitter.com/myfear/statuses/402518053432623104">November 18, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>How to Create an Identity/Attribute/Credential/Partition Store for PicketLink <a href="http://t.co/yv3XiLCXIB">http://t.co/yv3XiLCXIB</a></p>&mdash; Fernando Ribeiro (@fribeiro1) <a href="https://twitter.com/fribeiro1/statuses/384519126393167872">September 30, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/anilsaldhana">@anilsaldhana</a> the general feedback I&#39;m getting is that SAML still has some application these days. Checking out <a href="http://t.co/LbBx1kmD01">http://t.co/LbBx1kmD01</a> now</p>&mdash; Tim O&#39;Brien (@tobrien) <a href="https://twitter.com/tobrien/statuses/378246713015672832">September 12, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>Integrated Windows Authentication (SPNEGO) for Web Applications on JBoss EAP 6.1 <a href="http://t.co/15KZY6qTwB">http://t.co/15KZY6qTwB</a> <a href="https://twitter.com/search?q=%23jboss&amp;src=hash">#jboss</a> <a href="https://twitter.com/search?q=%23picketlink&amp;src=hash">#picketlink</a> <a href="https://twitter.com/search?q=%23spnego&amp;src=hash">#spnego</a></p>&mdash; Andrew Block (@sabre1041) <a href="https://twitter.com/sabre1041/statuses/354226788760694784">July 8, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++

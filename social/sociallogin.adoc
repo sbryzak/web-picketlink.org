@@ -20,3 +20,6 @@ https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/pick
 
 === Twitter
 https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-twitter
+
+== Testimonials
+* https://twitter.com/geekpharaoh/status/443096423316611072
