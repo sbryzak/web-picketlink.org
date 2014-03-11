@@ -1,0 +1,24 @@
+= Authorization
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is Authorization?
+Authorization is the process of specifying permissions or access rights to resources.
+
+Refer to http://en.wikipedia.org/wiki/Authorization
+
+== PicketLink Documentation on Authorization/Permission
+http://docs.jboss.org/picketlink/2/latest/reference/html/ch10.html
+
+== Quickstarts for Authorization
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-acl [IDM-based authorization using the Permissions API to implement ACL-based resource restrictions]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-drools [Authorization using the Drools Framework]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-idm-jpa [IDM-based authorization using a JPA-based PicketLink IDM configuration]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-idm-ldap [ IDM-based authorization using a LDAP-based PicketLink IDM configuration]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-rs-rbac [Quickstart that demonstrates how to use RBAC to your JAX-RS Endpoints]

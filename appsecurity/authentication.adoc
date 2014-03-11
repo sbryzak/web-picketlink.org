@@ -1,0 +1,40 @@
+= Authentication
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is Authentication?
+Authentication is process of determining whether someone or something is in fact who they claim to be.
+
+Refer to http://searchsecurity.techtarget.com/definition/authentication for more information.
+
+== PicketLink Documentation on Authentication
+http://docs.jboss.org/picketlink/2/latest/reference/html/ch02.html
+
+== Quickstarts for Authentication
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-form [Authentication with HTTP FORM]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-client-cert [Authentication with HTTP CLIENT-CERT]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-digest [Authentication with HTTP DIGEST]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-basic [Authentication with HTTP BASIC]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-idm-jsf [Authentication with PicketLink IDM for a JSF Application]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-idm-multi-tenancy [Authentication with PicketLink IDM for a Multi-tenancy usecase for a JSF Application]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-jsf [Authentication using Username/Password in a JSF Application]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-recaptcha [Authentication using Re-Captcha]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-rs-endpoint [Authentication using REST endpoints]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-two-factor [Two Factor Authentication using One Time Passwords (OTP) using Google Authenticator Mobile Application]
+
+== Social Login/Authentication
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-facebook [Facebook Connect Based Authentication]
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-twitter [Twitter Based Authentication]
