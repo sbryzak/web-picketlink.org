@@ -1,0 +1,22 @@
+= Social Login
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is Social Login?
+
+Social Login involves login using a social network such as Facebook, Twitter or Google+.
+
+PicketLink includes support for Social Login using:
+# Facebook Connect
+# Twitter
+# Google+
+
+The quickstarts are available that provide you the relevant information:
+
+=== Facebook Connect
+https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-facebook
+
+=== Twitter
+https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-twitter
+
