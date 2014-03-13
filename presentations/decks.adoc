@@ -1,0 +1,14 @@
+= Presentations
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== Presentations
+
+
+++++
+<iframe src="http://www.slideshare.net/slideshow/embed_code/23987919" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/anilsaldhana/securing-applicationswithpicketlinkv2" title="Securing Applications With Picketlink" target="_blank">Securing Applications With Picketlink</a> </strong> from <strong><a href="http://www.slideshare.net/anilsaldhana" target="_blank">Anil Saldhana</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/26982089" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/fribeiro1/developing-picketlink-applications" title="Developing PicketLink Applications" target="_blank">Developing PicketLink Applications</a> </strong> from <strong><a href="http://www.slideshare.net/fribeiro1" target="_blank">Fernando Ribeiro</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/29213268" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/anilsaldhana/saml-vs-oauth-which-one-should-i-use" title="Saml vs Oauth : Which one should I use?" target="_blank">Saml vs Oauth : Which one should I use?</a> </strong> from <strong><a href="http://www.slideshare.net/anilsaldhana" target="_blank">Anil Saldhana</a></strong> </div>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/27002847?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/opensourcementor/peeples-authentication-authorizationserviceswithsamlxacmlwithjbosseap6-27002847" title="Peeples authentication authorization_services_with_saml_xacml_with_jboss_eap6" target="_blank">Peeples authentication authorization_services_with_saml_xacml_with_jboss_eap6</a> </strong> from <strong><a href="http://www.slideshare.net/opensourcementor" target="_blank">opensourcementor</a></strong> </div>
+++++

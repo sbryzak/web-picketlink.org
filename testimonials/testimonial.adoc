@@ -3,8 +3,12 @@
 :page-interpolate: true
 :showtitle:
 
+
 == Testimonials
 
+* Open Source Conference 2012 presentation by Dr.IR. RONALD MIDDELKOOP from ISAAC declaring PicketLink provides SSO for 1.6 Million Users. The PDF is at http://www.opensourceconference.nl/Preso2012/singlesignonisaac.pdf
+
+=== Twitter Feedback
 ++++
 <blockquote class="twitter-tweet" lang="en"><p>Played around with the <a href="https://twitter.com/picketlink">@picketlink</a> social quick starts. Excellent! Facebook/twitter login is so easy. What about adding <a href="https://twitter.com/search?q=%23OAuth&amp;src=hash">#OAuth</a> IDP support?</p>&mdash; Steven Nakhla (@geekpharaoh) <a href="https://twitter.com/geekpharaoh/statuses/443096423316611072">March 10, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -19,3 +23,4 @@
 <blockquote class="twitter-tweet" lang="en"><p>Integrated Windows Authentication (SPNEGO) for Web Applications on JBoss EAP 6.1 <a href="http://t.co/15KZY6qTwB">http://t.co/15KZY6qTwB</a> <a href="https://twitter.com/search?q=%23jboss&amp;src=hash">#jboss</a> <a href="https://twitter.com/search?q=%23picketlink&amp;src=hash">#picketlink</a> <a href="https://twitter.com/search?q=%23spnego&amp;src=hash">#spnego</a></p>&mdash; Andrew Block (@sabre1041) <a href="https://twitter.com/sabre1041/statuses/354226788760694784">July 8, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 ++++
+

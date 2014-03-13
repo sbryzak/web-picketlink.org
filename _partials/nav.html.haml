@@ -21,6 +21,8 @@
             %a(href="#{site.base_url}/gethelp/") Get Help
           %li{:class=>"#{'active' if page.output_path.start_with?('/testimonials') }" }<
             %a(href="#{site.base_url}/testimonials/testimonial/") Testimonials
+          %li{:class=>"#{'active' if page.output_path.start_with?('/news') }" }<
+            %a(href="#{site.base_url}/news/news/") News
           %li{:class=>"#{'active' if page.output_path.start_with?('/joinus') }" }<
             %a(href="#{site.base_url}/joinus/") Join Us
           %li.dropdown
