@@ -23,3 +23,7 @@ https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/pick
 
 == Testimonials
 * https://twitter.com/geekpharaoh/status/443096423316611072
+++++
+<blockquote class="twitter-tweet" lang="en"><p>Played around with the <a href="https://twitter.com/picketlink">@picketlink</a> social quick starts. Excellent! Facebook/twitter login is so easy. What about adding <a href="https://twitter.com/search?q=%23OAuth&amp;src=hash">#OAuth</a> IDP support?</p>&mdash; Steven Nakhla (@geekpharaoh) <a href="https://twitter.com/geekpharaoh/statuses/443096423316611072">March 10, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++
