@@ -1,0 +1,14 @@
+= Web Services Trust (WS-Trust)
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is WS-Trust?
+WS-Trust is an OASIS standard for Single Sign On and Identity Management for Web Services.
+
+== PicketLink Documentation on WS-Trust
+http://docs.jboss.org/picketlink/2/latest/reference/html/ch12.html
+
+== Quickstarts for WS-Trust
+
+* https://github.com/picketlink2/picketlink-quickstarts/tree/master/ws-trust (Security Trust Server -STS)

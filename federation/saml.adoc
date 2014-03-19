@@ -1,0 +1,37 @@
+= Security Assertion Markup Language (SAML)
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is SAML?
+SAML is an OASIS standard for Single Sign On and Identity Management.
+
+== PicketLink Documentation on SAML
+http://docs.jboss.org/picketlink/2/latest/reference/html/ch12.html
+
+== Quickstarts for SAML
+
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-basic  (PicketLink SAML Identity Provider with HTTP Basic)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-servlet-filter (PicketLink SAML Identity Provider using a Servlet Filter)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-encryption (PicketLink SAML Identity Provider using XML Encryption)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-signature (PicketLink SAML Identity Provider using XML Signature)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-metadata (PicketLink SAML Identity Provider with SAML Metadata)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-ssl (PicketLink SAML Identity Provider using SSL Client Authentication)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-post-basic (PicketLink SAML Service Provider using SAML HTTP POST Binding)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-post-with-signature (PicketLink SAML Service Provider using SAML HTTP POST Binding and XML Signatures)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-with-encryption (PicketLink SAML Service Provider using SAML HTTP POST Binding with XML Encryption)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-redirect-basic (PicketLink SAML Service Provider using HTTP Redirect Binding)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-redirect-with-signature (PicketLink SAML Service Provider using HTTP Redirect Binding and XML Signature)
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-with-metadata (PicketLink SAML Service Provider using SAML Metadata)

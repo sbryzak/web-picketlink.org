@@ -17,7 +17,8 @@ layout: project
           / Carousel items
         .carousel-inner
           .active.item
-            %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner.png"}/
+            %a{:href => "#{site.base_url}/announcements/latest/"}
+              %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner.png"}/
           .item
             %img{:alt => "", :src => "http://design.jboss.org/picketlink/banner/images/picketlink_banner_r1v4.png"}/
           .item
@@ -25,6 +26,19 @@ layout: project
         / Carousel nav
         %a.carousel-control.left{"data-slide" => "prev", :href => "#myCarousel"} ‹
         %a.carousel-control.right{"data-slide" => "next", :href => "#myCarousel"} ›
+
+-# Attention row of projects
+#equalHeightsB.row-fluid.equalHero
+  .span4.well.offset4
+    %p
+      %i.icon-shopping-cart.icon-1x.icon-2x.pull-left
+      %h3 ANNOUNCEMENTS
+    %p
+      PicketLink v2.6.0.CR1 Released
+    %p.center-icon
+      %a.btn.btn-success{:href => "#{site.base_url}/announcements/latest/"}
+        ANNOUNCEMENTS
+        %i.icon-circle-arrow-right
 
 -# First row of projects
 #equalHeightsB.row-fluid.equalHero
@@ -77,7 +91,7 @@ layout: project
     %p
       WS-Trust based Security Token Server (STS)
     %p.center-icon
-      %a.btn.btn-primary{:href => "http://docs.jboss.org/picketlink/2/latest/reference/html/ch09.html"}
+      %a.btn.btn-primary{:href => "#{site.base_url}/federation/"}
         Secure SSO
         %i.icon-circle-arrow-right
 
@@ -136,3 +150,4 @@ layout: project
       %a.btn.btn-primary{:href => "#{site.base_url}/gethelp/"}
         Get Involved
         %i.icon-circle-arrow-right
+

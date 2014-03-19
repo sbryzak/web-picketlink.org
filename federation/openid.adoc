@@ -1,0 +1,18 @@
+= Open Identity (OpenID)
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is OpenID?
+OpenID is a standard from the OpenID foundation for Identity.
+
+== PicketLink Documentation on OpenID
+TBD
+
+== Quickstarts for OAuth
+TBD
+
+++++
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p>&quot;Implementing <a href="https://twitter.com/search?q=%23CapeDwarf&amp;src=hash">#CapeDwarf</a>&#39;s Users API with PicketLink-Social&#39;s OpenID support&quot; <a href="http://t.co/zIuco1qcRM">http://t.co/zIuco1qcRM</a></p>&mdash; Markus Eisele (@myfear) <a href="https://twitter.com/myfear/statuses/402518053432623104">November 18, 2013</a></blockquote>
+++++

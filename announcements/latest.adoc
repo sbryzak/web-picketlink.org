@@ -1,0 +1,14 @@
+= Latest Announcements
+:awestruct-layout: project
+:page-interpolate: true
+:icons: font
+:showtitle:
+
+== Announcementment
+*link:../v2.6.0.CR1/[v2.6.0.CR1 Release Notes]*
+
+ INFO: Please click the link above for the latest release notes
+
+
+
+== Archived Announcements

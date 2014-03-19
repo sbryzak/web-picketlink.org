@@ -1,0 +1,9 @@
+= REST Security
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== Quickstarts for REST Security
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-rs-endpoint [Authentication using REST endpoints]
+

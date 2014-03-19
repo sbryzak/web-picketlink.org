@@ -1,0 +1,211 @@
+= Announcement for v2.6.0.CR1
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== Announcement
+The PicketLink team is pleased to announce the release of v2.6.0.CR1.  This release also marks the unveiling of the new look and feel for the PicketLink website: http://www.picketlink.org built on Awestruct and jboss.org Bootstrap.
+
+== How do I get it?
+* link:../../gettingstarted/[PicketLink Getting Started]
+
+=== Notable Changes
+* PicketLink SAML SSO For WildFly8
+** WildFly Bindings for Federation
+* Improved Documentation
+* Additional PicketLink Quickstarts
+* PicketLink Permission API
+* PicketLink Subsystem for WildFly
+* EAP Module Upgrade (containing all 2.6+ libraries)
+* PL Extension for both EAP and WildFly
+* SAML2 IDP Initiated SSO
+* Service Provider Dynamic Account Chooser Functionality
+
+=== PicketLink Quickstarts
+
+Quickstarts are available at:
+https://github.com/jboss-developer/jboss-picketlink-quickstarts/
+
+The quickstarts are listed below:
+
+==== Authentication:
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-form [Authentication with HTTP FORM]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-client-cert [Authentication with HTTP CLIENT-CERT]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-digest [Authentication with HTTP DIGEST]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-http-basic [Authentication with HTTP BASIC]
+*https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-idm-jsf [Authentication with PicketLink IDM for a JSF Application]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-idm-multi-tenancy [Authentication with PicketLink IDM for a Multi-tenancy usecase for a JSF Application]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-jsf [Authentication using Username/Password in a JSF Application]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-recaptcha [Authentication using Re-Captcha]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-rs-endpoint [Authentication using REST endpoints]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-two-factor [Two Factor Authentication using One Time Passwords (OTP) using Google Authenticator Mobile Application]
+
+==== Social Login:
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-facebook [Facebook Connect Based Authentication]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authentication-twitter [Twitter Based Authentication]
+
+==== Authorization and Permissions:
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-acl [IDM-based authorization using the Permissions API to implement ACL-based resource restrictions]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-drools [Authorization using the Drools Framework]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-idm-jpa [IDM-based authorization using a JPA-based PicketLink IDM configuration]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-idm-ldap [ IDM-based authorization using a LDAP-based PicketLink IDM configuration]
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-authorization-rs-rbac [Quickstart that demonstrates how to use RBAC to your JAX-RS Endpoints]
+
+==== Federation (SAML,WS-Trust etc):
+
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-basic  (PicketLink SAML Identity Provider with HTTP Basic)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-servlet-filter (PicketLink SAML Identity Provider using a Servlet Filter)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-encryption (PicketLink SAML Identity Provider using XML Encryption)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-signature (PicketLink SAML Identity Provider using XML Signature)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-metadata (PicketLink SAML Identity Provider with SAML Metadata)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-idp-with-ssl (PicketLink SAML Identity Provider using SSL Client Authentication)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-post-basic (PicketLink SAML Service Provider using SAML HTTP POST Binding)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-post-with-signature (PicketLink SAML Service Provider using SAML HTTP POST Binding and XML Signatures)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-with-encryption (PicketLink SAML Service Provider using SAML HTTP POST Binding with XML Encryption)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-redirect-basic (PicketLink SAML Service Provider using HTTP Redirect Binding)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-redirect-with-signature (PicketLink SAML Service Provider using HTTP Redirect Binding and XML Signature)
+* https://github.com/jboss-developer/jboss-picketlink-quickstarts/tree/master/picketlink-federation-saml-sp-with-metadata (PicketLink SAML Service Provider using SAML Metadata)
+* https://github.com/picketlink2/picketlink-quickstarts/tree/master/ws-trust (PicketLink WS-Trust STS)
+
+image:documentation.png[]
+NOTE
+--------------------------------------
+There are some additional quickstarts that have not been fully migrated over to JBoss Developer Quickstarts.
+--------------------------------------
+
+=== JIRA
+https://issues.jboss.org/browse/PLINK
+
+=== Release Notes
+
+The following section lists out the release notes for the versions leading up to v2.6.0.CR1
+
+==== Release Notes - PicketLink - Version PLINK_2.6.0.CR1
+** Bug
+    * [PLINK-378] - SAML2LogoutHandler should create logout request with nameid format
+    * [PLINK-379] - HTTP Redirect Binding is not restoring original request when accessing a SP for the first time
+    * [PLINK-380] - IDPFilter is not populating roles in assertion when using SAML v1.1
+    * [PLINK-381] - IDPFilter is stopping the filter chain and not providing application resources
+    * [PLINK-382] - WildFly Binding is not supporting SAML v1.1 usecases
+    * [PLINK-383] - WildFly SP Binding is is raising IllegalStateException messages.
+
+==== Release Notes - PicketLink - Version PLINK_2.6.0.Beta4
+
+** Bug
+    * [PLINK-356] - Reloading configuration in IDP doesn't work
+    * [PLINK-367] - Custom partition types are not properly configured when specifying the custom type instead of the base Partition type
+    * [PLINK-372] - boolean config values should default to boolean.FALSE if not explicitly declared in configs
+
+** Enhancement
+    * [PLINK-313] - IDP should be configurable to sign assertions
+    * [PLINK-375] - Support SAMLConfigProvider and AuditHelper from WildFly IdP and SP bindings
+
+** Feature Request
+    * [PLINK-327] - PasswordCredentialTypeEntity could not be loaded with TomEE
+    * [PLINK-344] - Service Provider Dynamic Account Chooser Functionality
+    * [PLINK-363] - Combined Service Provider Authenticator
+    * [PLINK-364] - SAML2 IDP Initiated SSO
+    * [PLINK-368] - Role Generator for JBossAS/JBossWeb Combination
+
+** Task
+    * [PLINK-284] - PicketLink IDP and SPNego
+    * [PLINK-319] - WildFly PicketLink Extension and IDM Subsystem
+    * [PLINK-370] - Lower log level from INFO to TRACE for Canonicalization
+    * [PLINK-373] - Ensure Boolean variables are initialized and handle null autoboxing issues
+    * [PLINK-374] - Enable WildFly distribution in PicketLink Bindings
+    * [PLINK-376] - Port JSON Security from PicketBox Core
+
+==== Release Notes - PicketLink - Version PLINK_2.6.0.Beta3
+
+** Bug
+    * [PLINK-361] - Wrong validation when configuring credentials using multiple stores for a single identity configuration
+
+** Feature Request
+    * [PLINK-268] - Implement Permission Management
+    * [PLINK-359] - Regular Expression User Name Login Module
+
+
+==== Release Notes - PicketLink - Version PLINK_2.6.0.Beta2
+
+** Bug
+    * [PLINK-199] - Error granting role with EclipseLink
+    * [PLINK-210] - Regression: use of In.value() for collections
+    * [PLINK-332] - PicketLink fails to bootstrap due to TransactionRequiredException on TomEE and GlassFish
+
+** Feature Request
+    * [PLINK-146] - XMLSignatureUtil should allow KeyInfo to use X509 if desired
+    * [PLINK-303] - Improve logging and messages
+    * [PLINK-323] - Social Login Quickstarts
+    * [PLINK-341] - SAML Service Provider Workflow abstraction
+    * [PLINK-342] - IDPFilter for web applications
+    * [PLINK-343] - Jetty Bindings for SAML SSO
+
+** Task
+    * [PLINK-350] - Validate XMLSignatureUtil->KeyInfo/X509Certificate Usage
+
+
+
+==== Release Notes - PicketLink - Version PLINK_2.5.3.Beta1 (Same as 2.6.0.Beta1)
+
+** Bug
+    * [PLINK-209] - Debug/Error inconsistency in exception logging
+    * [PLINK-257] - PicketLink does not work properly when using JBoss Modules
+    * [PLINK-259] - ShanesBigSanityCheckTestCase.testScenario1 is failing sometimes
+    * [PLINK-278] - TransactionRequiredException thrown by IDM when no @Startup bean performs initialization
+    * [PLINK-285] - RelationshipManager allows null group to be added to identity. NullPointerException results upon subsequent access to user's groups
+    * [PLINK-286] - BasicModel.isMember() throws NullPointerException when group does not exist
+    * [PLINK-298] - LDAPIdentityStore is not handling property MSAD's objectGUID for identifiers
+    * [PLINK-300] - AbstractIDPValve throws NPE when using metadata and AuthnRequestsSigned is null.
+    * [PLINK-302] - Annotate date fields in the simple schema with @Temporal
+    * [PLINK-309] - AttributeParameter needs equals() and hashcode()
+    * [PLINK-312] - StackOverflowError in identity query with attribute parameter
+    * [PLINK-314] - Annotations are not always recognized when defined in a field only
+    * [PLINK-326] - Twitter Authenticator can throw no token available error
+    * [PLINK-330] - DefaultPicketLinkLogger can not use parametrized methods from jboss logging
+    * [PLINK-340] - AS submodule: IdentityConfigurationBuilder error messages are missing real reasons
+
+** Enhancement
+    * [PLINK-282] - Support for Multiple Custom Identity Stores in the IdentityConfigurationBuilder Fluent API
+    * [PLINK-301] - Small changes to the exception hierarchy
+    * [PLINK-305] - Authenticating custom account types without providing a custom credential handler
+    * [PLINK-306] - Support different stores configuration with different identity types
+    * [PLINK-310] - Set default partition to types when the underlying store does not support partitions
+    * [PLINK-315] - Use the LDAP mapping configuration to discover the supported types
+    * [PLINK-331] - Support EclipseLink when running the IDM tests
+    * [PLINK-334] - Add a method to retrieve all configuration used to build a PartitionManager
+    * [PLINK-335] - Fire event right after the PartitionManager is built to allow customs initialization logic
+    * [PLINK-336] - Remove wrong debug logging message for the default logger implementation
+
+
+** Feature Request
+    * [PLINK-190] - JDBC Identity Store Implementation
+    * [PLINK-287] - Need a method of determining if a User email address is already used
+    * [PLINK-295] - GenericHeaderAuthenticator
+    * [PLINK-296] - SSLValve from JBossWeb Sandbox
+    * [PLINK-311] - Provide to the LDAP store a configuration that allows to specify the hierarchy search depth
+
+
+** Task
+    * [PLINK-167] - Ensure Logger for exception messages
+    * [PLINK-280] - Clean up wildcard imports
+    * [PLINK-289] - Create PicketLink BOM Module
+    * [PLINK-290] - Update documentation and site with the quickstarts changes
+    * [PLINK-291] - Update quickstarts with the PicketLink BOM
+    * [PLINK-293] - Enable and fix checkstyle validation for all modules
+    * [PLINK-307] - Transfer PicketLink Quickstarts to JDF
+    * [PLINK-308] - Support mapping between types and their corresponding objectClasses.
+    * [PLINK-320] - Enable CDI on PicketLink IDM.
+
+** Sub-task
+    * [PLINK-324] - Social Login Quickstart: Login With Facebook
+    * [PLINK-325] - Social Login Quickstart: Login With Twitter
+
+
+=== PicketLink SAML SSO on WildFly AS
+++++
+<blockquote class="twitter-tweet" lang="en"><p>PicketLink SAML SSO on <a href="https://twitter.com/WildFlyAS">@WildFlyAS</a> via <a href="https://twitter.com/pigorcraveiro">@pigorcraveiro</a> Link 1:&#10;<a href="https://t.co/SGhjOHn0c9">https://t.co/SGhjOHn0c9</a>&#10;Link 2:&#10;<a href="https://t.co/me2UuoTdFM">https://t.co/me2UuoTdFM</a>&#10;<a href="https://twitter.com/search?q=%23wildfly&amp;src=hash">#wildfly</a></p>&mdash; PicketLink (@picketlink) <a href="https://twitter.com/picketlink/statuses/445916176657686528">March 18, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++
