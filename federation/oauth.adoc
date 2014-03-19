@@ -1,0 +1,13 @@
+= OAuth
+:awestruct-layout: project
+:page-interpolate: true
+:showtitle:
+
+== What is OAuth?
+OAuth v2.0 is an IETF standard for delegated authorization on the internet.
+
+== PicketLink Documentation on OAuth
+TBD
+
+== Quickstarts for OAuth
+TBD
